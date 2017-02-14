@@ -68,7 +68,7 @@ bot.on('message', function(message) {
 				messages = textChannel.messages;
 				var toDelete = messages.filter(function(message) {
 					return message.content == '!shiet'
-				}); //TODO : kaikki komennot johki config filuu arrayna
+				}); 
 				textChannel.bulkDelete(100);
 				/*messages.last().delete()
 				.then(function(msg) {
