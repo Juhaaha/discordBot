@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const botToken = "Mjc1MTk3NDMzMTY2ODIzNDI0.C29JLw.qN8_PNDm4aaA2Pc92p8xZAUuq4w";
+const botToken = "ur token dude";
 var voiceChannel;
 var textChannel;
 var voiceConnection;
